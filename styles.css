@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-family: cursive;
+}
+
+.details {
+    background-color: sandybrown;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type='text'] {
+    margin-left: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+input[type='number'] {
+    margin-left: 7px;
+    width: 250px;
+    height: 30px;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    width: 300px;
+    margin-top: 10px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-weight: 700;
+    font-size: large;
+}
+
+table {
+    width: 100%;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
